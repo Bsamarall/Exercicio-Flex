@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    margin: 0;
+    padding: 0.5rem;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.562), white) 
+}
+
+.container {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 80px;
+    
+}
+
+li{ 
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.box{
+    color: black;
+    margin: 0;
+    background-color: aqua;
+    width: 60vh;    /*Utilizado VH para se adaptar a LARGURA da tela */ 
+    height: 30vw;   /*Utilizado VW para se adaptar a visualização de cada dispositivo */
+    
+}
+.box_red{
+    background-color: red;
+}
+.box_yellow{
+    background-color: yellow;
+}
+.box_green{
+    background-color: green;
+}
+.box_blue{
+    background-color: blue;
+}
+.box_purple{
+    background-color: purple;
+}
+.box_pink{
+    background-color: pink;
+}
+.box_marine{
+    background-color: aquamarine;
+}
+.box_orange{
+    background-color: orange;
+}
+.box_aqua{
+    background-color: aqua;
+}
